@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="play_btn_height_width">32dp</dimen>
+    <dimen name="progress_bar_height_width">32dp</dimen>
+    <dimen name="activity_horizontal_margin">8dp</dimen>
+</resources>

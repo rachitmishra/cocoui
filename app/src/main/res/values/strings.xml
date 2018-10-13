@@ -1,0 +1,8 @@
+<resources>
+	<string name="app_name">coco-ui</string>
+	<string name="url_1">https://usa6.fastcast4u.com/proxy/wsjf?mp=/1</string>
+	<string name="url_2">https://www.sample-videos.com/audio/mp3/wave.mp3</string>
+	<string name="url_3">https://www.sample-videos.com/audio/mp3/crowd-cheering.mp3</string>
+	<string name="play">Play</string>
+	<string name="pause">Pause</string>
+</resources>

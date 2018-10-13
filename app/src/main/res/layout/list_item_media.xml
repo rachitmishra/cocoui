@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toBottomOf="@+id/mediaPlayerView"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <com.rachitmishra.coco.ui.MediaPlayerView
+        android:id="@+id/mediaPlayerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:auto_show="true"
+        app:controller_layout_id="@layout/layout_playback_controls"
+        app:hide_on_touch="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:show_timeout="0"/>
+
+</android.support.constraint.ConstraintLayout>
