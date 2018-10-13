@@ -7,6 +7,7 @@ A customview built on top of Exoplayer lib
 
 - Add `MediaPlayerView` to xml
 
+```
 <com.rachitmishra.coco.ui.MediaPlayerView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -17,6 +18,7 @@ A customview built on top of Exoplayer lib
     app:controller_layout_id="@layout/layout_playback_controls"
     app:hide_on_touch="false"
     app:show_timeout="0" />
+```
 
 And in your activity
 
